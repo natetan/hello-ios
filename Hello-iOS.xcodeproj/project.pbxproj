@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					9D0AB0501D9F2F11003B77D8 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 8V9D9ANMHK;
 						ProvisioningStyle = Automatic;
 					};
 					9D0AB0641D9F2F11003B77D8 = {
@@ -412,7 +413,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 8V9D9ANMHK;
 				INFOPLIST_FILE = "Hello-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "yulongproductions.Hello-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,7 +429,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 8V9D9ANMHK;
 				INFOPLIST_FILE = "Hello-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "yulongproductions.Hello-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -505,6 +514,7 @@
 				9D0AB07B1D9F2F11003B77D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9D0AB07C1D9F2F11003B77D8 /* Build configuration list for PBXNativeTarget "Hello-iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +523,7 @@
 				9D0AB07E1D9F2F11003B77D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9D0AB07F1D9F2F11003B77D8 /* Build configuration list for PBXNativeTarget "Hello-iOSUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +532,7 @@
 				9D0AB0811D9F2F11003B77D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
